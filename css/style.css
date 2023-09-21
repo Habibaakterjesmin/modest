@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, ul p {
+    margin: 0;
+    padding: 0;
+}
+
+.top_info{
+    display: flex;
+}
+.top_header{
+    padding: 20px 20px;
+}
+
+.top_icon_con{
+display: inline-block;
+margin-right: 20px;
+display: flex;
+}
+.top_icon{
+margin-right: 8px;
+color: #fff;
+font-family: 'roboto';
+border: 1px solid #2092fc;
+border-radius: 60px;
+background-color: #2092fc;
+padding: 3px 5px;
+font-size: 12px;
+}
+
+.top_content{
+font-family: 'roboto';
+}
+.icon_follow_{
+    display: flex;
+    margin-right: 30px;
+
+}
+.us_icon .fa-brands{
+    font-size: 18px;
+    padding: 4px 4px;
+    text-align: center;
+    border-radius: 3px;
+}
+.follow{
+    display: flex;
+    margin-right: 30px;
+}
+.us_icon{
+    margin-left: 20px;
+}
+.us_icon .fa-facebook{
+    color: #fff;
+    background-color: #4267b2;
+}
+.us_icon .fa-linkedin{
+    color: #fff;
+    background-color: #0077b7;
+}
+
+.us_icon .fa-twitter{
+color: #fff;
+background-color: #50abf1;
+}
+.us_icon .fa-square-instagram{
+color: #fff;
+background-color: #d33890;
+}
+.follow h3{
+    font-family: 'roboto';
+    font-size: 17px;
+    text-transform: uppercase;
+}
+header{
+    background:#003060;
+}
+.nav-link{
+color: #fff;
+font-size: 18px;
+text-transform: uppercase;
+font-family: 'roboto';
+}
+.btn_call{
+color: #fff;
+background-color: #2092fc;
+}
+.banner_section{
+    background-image: url(../images/Banner---bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.banner_header{
+    color: #fff;
+    padding: 70px 80px;
+
+}
+.banner_header h1{
+font-family: 'roboto';
+}
+.banner_header p{
+    font-family: 'roboto';
+    font-size: 12px;
+    padding: 15px 0;
+}
+
+.table_wrapper{
+    width: 80%;
+    margin: -150px 100px 80px;
+}
+
+.table_wrapper{
+padding: 25px 0;
+align-items: center;
+}
+.price_table{
+color: #003060;
+background-color: #fff;
+border: 1px solid #999999;
+box-sizing: border-box;
+text-align: center;
+
+
+}
+.price_table h2{
+margin: 0 !important;
+padding: 0;
+font-size: 27px;
+padding: 20px 0;
+color: black;
+font-family: 'roboto';
+border-bottom: 1px solid #003060;
+background-color: #08bd04;
+color: #fff;
+}
+.price h1{
+font-size: 40px ;
+}
+.price h1 sup{
+    font-size: 30px;
+    font-family: 'roboto';
+}
+.price p{
+
+}
+.price_c3 h2{
+background-color: #2092fc;
+}
+.price_c2 h2{
+background-color: #15b4c5;
+}
+.price_table p{
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'roboto';
+}
+.price_table span{
+border: 1px solid #08bd04;
+border-radius: 50%;
+color: #fff;
+background-color: #08bd04;
+font-size: 10px;
+padding: 2px 3px;
+font-family: 'roboto';
+}
+.price_table h5{
+padding: 15px 0;
+text-transform: uppercase; 
+font-size: 14px;
+font-family: 'roboto';
+}
+.btn_order{
+    background-color: #0077b7;
+    
+}
+
+.price{
+    padding: 18px 0;
+}
+.price h5{
+    text-transform: capitalize;
+    color: #999999;
+    font-family: 'roboto';
+}
+
+.neque_header{
+    padding: 30px 0;
+    font-family: 'roboto';
+}
+
+.neque_content{
+
+}
+.neque_content p{
+ font-family: 'roboto';
+}
+.neque_content span{
+    border: 1px solid #08bd04;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #08bd04;
+    font-size: 10px;
+    padding: 2px 3px;
+    font-family: 'roboto';
+    margin-right: 11px;
+}
+
+.btn_learn{
+background-color: #2092fc;
+font-family: 'roboto';
+color: #fff;
+}
+
+.HBO_section{
+    padding: 40px;
+}
+
+.hbo_wrapper{
+    display: flex;
+}
+
+.bho_img img{
+width: 230px;
+}
+.bho_img p{
+margin-bottom: 0;
+}
+.bho_img h5{
+margin-bottom: 30px;
+font-family: 'roboto';
+
+}
+.hbo_content{
+margin-left: 30px;
+font-family: 'roboto';
+}
+.hbo_content p{
+    font-family: 'roboto';
+}
+.Porro_section{
+    display: flex;
+    background-color: #003060;
+}
+.porro_img{
+    width: 600px;
+    margin-left: 50px;
+    padding: 40px 0;
+}
+.neque_color{
+    color: #fff;
+}
+.contact_wrapper{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-bottom: 10px;
+}
+
+.contact_info .contact_flex{
+    flex: 1;
+
+}
+.contact_flex{
+    margin-left: 10px;
+}
+.contact_message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact_sent input[type="Submit"]{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #003060;
+    font-family: 'roboto';
+    padding: 5px 7px;
+    border-radius: 5px;
+  }
+  .contact_sent input[type="Submit"]:hover{
+    background-color: #0077b7;
+  }
+
+  .contact_us{
+padding: 30px 35px 5px;
+margin-left: 48px;
+
+}
+  .contact_us p{
+    margin-bottom: 0;
+  }
+  .contact_us h5{
+    font-family: 'roboto';
+  }
+
+  .Footer_header{
+    padding: 30px;
+  }
+  .Footer_header h2{
+    margin-bottom: 18px;
+    font-family: 'roboto';
+  }
+  .Footer_header input[type="submit"]{
+    padding: 5px 6px;
+    background-color: #003060;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'roboto';
+  }
+  .Footer_header input [type="Name"]{
+    width: 25px;
+    height: 25px;
+    font-family: 'roboto';
+  }
+
+  .Footer_header input[type="submit"]:hover{
+    background-color: #0077b7;
+    font-family: 'roboto';
+  }
+  .footer_wrapper{
+
+  }
+
+  .footer_wrapper ul{
+    list-style: none;
+    display: flex;
+    padding: 20px 0 0;
+  }
+  .footer_wrapper ul li{
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: 'roboto';
+    text-transform: uppercase;
+
+  }
+.footer_wrapper ul li:hover{
+    color: #15b4c5
+}
+
+.btn_call:hover{
+    background-color: #4267b2;
+    color: #fff;
+}
+.footer_wrapper p{
+display: inline-block;
+margin-left: 230px;
+
+}
+.footer_wrapper span{
+    margin-right: 5px;
+}
+
+.call_btn{
+    background-color: transparent;
+    border: 1px solid #999999;
+}
+
+.call_btn:hover{
+    background-color: #2092fc;
+    color: #fff;
+}
+
+
+
+@media (min-width: 320px)(max-width:480px){ 
+    <!--banner code start--> 
+
+.banner_header{
+    color: #fff;
+    padding: 70px 80px;
+    
+
+ }
+ <!--banner code end--> 
+
+}
+
+
+
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+
+
+@media (min-width: 1400px) { ... }
